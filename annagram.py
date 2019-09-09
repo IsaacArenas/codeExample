@@ -48,7 +48,7 @@ def test_anagram_words():
 
 def test_different_words():
    base_word= "cosa"
-   comp_word = "perro"
+   comp_word = "pero"
    assert not anagramCompare(base_word, comp_word)
 
 def test_different_length_words():
@@ -56,4 +56,4 @@ def test_different_length_words():
   comp_word= "uhhhhhhhhh"
   assert not anagramCompare(base_word, comp_word)
 
-test_same_words()
+
